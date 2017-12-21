@@ -1,11 +1,11 @@
-Atomic-OS
+LLUVIA-OS
 ==================
 
 Getting Started
 ---------------
 To initialize your local repository using the our trees, use a command like this:
 
-    repo init -u https://github.com/Atomic-OS/platform_manifest.git -b oreo
+    repo init -u https://github.com/Atomic-OS/platform_manifest.git -b 8.1
 
 Then to sync up:
 ---------------
@@ -17,8 +17,8 @@ Finally to build:
 
 ```bash
   . build/envsetup.sh
-  lunch aos_devicecodename-userdebug
-  mka atomic
+  lunch llos_devicecodename-userdebug
+  mka rain
 ```
 Credits
 -------
