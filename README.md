@@ -5,7 +5,7 @@ Getting Started
 ---------------
 To initialize your local repository using the our trees, use a command like this:
 
-    repo init -u https://github.com/LLUVIA-OS/platform_manifest.git -b 8.1
+    repo init -u https://github.com/LLuviaOS/platform_manifest.git -b 8.1
 
 Then to sync up:
 ---------------
