@@ -13,7 +13,7 @@
 
   <remote  name="lluvia"
            fetch="https://github.com/LLuviaOS"
-           revision="llos" />
+           revision="8.1" />
 
   <default revision="refs/tags/android-8.1.0_r1"
            remote="aosp"
@@ -29,6 +29,6 @@
   <include name="gzosp.xml" />
 
   <!-- LLuviaOS -->
-  <include name="llos.xml" />
+  <include name="lluvia.xml" />
 
 </manifest>
