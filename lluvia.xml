@@ -17,7 +17,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="bionic" name="platform_bionic" groups="pdk" remote="8.1" />
-  <project path="device/lluvia/sepolicy" name="device_8.1_sepolicy" groups="pdk" remote="8.1" />
+  <project path="device/lluvia/sepolicy" name="device_lluvia_sepolicy" groups="pdk" remote="8.1" />
   <project path="external/skia" name="platform_external_skia" groups="pdk,qcom_msm8x26" remote="8.1" />
   <project path="external/selinux" name="platform_external_selinux" groups="pdk" remote="8.1" />
   <project path="external/tinycompress" name="platform_external_tinycompress" groups="pdk" remote="8.1" />
@@ -36,7 +36,7 @@
   <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="8.1" />
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="8.1" />
   <project path="vendor/lluvia" name="platform_vendor_lluvia" remote="8.1" />
-  <project path="hardware/lluvia/interfaces" name="hardware_8.1_interfaces" remote="8.1" >
+  <project path="hardware/lluvia/interfaces" name="hardware_lluvia_interfaces" remote="8.1" >
       <copyfile dest="hardware/lluvia/Android.bp" src="Android.bp"/>
   </project>
 
