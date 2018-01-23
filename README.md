@@ -9,7 +9,7 @@ To initialize your local repository using the our trees, use a command like this
 
 Then to sync up:
 ---------------
-    repo sync --force-sync --force-broken --no-clone-bundle -jxxx (ur choice dude)
+    repo sync --force-sync --force-broken --no-clone-bundle --no-tags -jx (ur choice dude)
 
 
 Finally to build:
@@ -17,7 +17,7 @@ Finally to build:
 
 ```bash
   . build/envsetup.sh
-  lunch llos_devicecodename-userdebug
+  lunch llos_<devicecodename>-userdebug
   mka rain
 ```
 Credits
